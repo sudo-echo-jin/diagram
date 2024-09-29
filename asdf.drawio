@@ -1,11 +1,11 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.16" pages="2">
   <diagram name="as-is" id="xdbdUsmO_gZyoiDEBH-T">
-    <mxGraphModel dx="1872" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2328" dy="1175" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="yEEzD0z_jnbcdLMA-1Y5-46" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="590" y="550" width="360" height="500" as="geometry" />
+          <mxGeometry x="590" y="550" width="760" height="500" as="geometry" />
         </mxCell>
         <mxCell id="yEEzD0z_jnbcdLMA-1Y5-2" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;" parent="1" vertex="1">
           <mxGeometry x="330" y="350" width="110" height="100" as="geometry" />
@@ -47,7 +47,7 @@
         <mxCell id="yEEzD0z_jnbcdLMA-1Y5-19" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" parent="yEEzD0z_jnbcdLMA-1Y5-31" vertex="1">
           <mxGeometry x="-5" width="80" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="yEEzD0z_jnbcdLMA-1Y5-30" value="Alpine (Test VM)&lt;div&gt;192.168.2.10&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="yEEzD0z_jnbcdLMA-1Y5-31" vertex="1">
+        <mxCell id="yEEzD0z_jnbcdLMA-1Y5-30" value="Alpine (Test VM)&lt;div&gt;192.168.2.10~20&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="yEEzD0z_jnbcdLMA-1Y5-31" vertex="1">
           <mxGeometry x="-15" y="70" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yEEzD0z_jnbcdLMA-1Y5-32" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="yEEzD0z_jnbcdLMA-1Y5-19" target="yEEzD0z_jnbcdLMA-1Y5-8" edge="1">
@@ -149,6 +149,24 @@
               <mxPoint x="330" y="720" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="220_eWPcuENZcw4WMDPK-1" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="870" y="850" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="220_eWPcuENZcw4WMDPK-2" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="220_eWPcuENZcw4WMDPK-1">
+          <mxGeometry x="-5" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="220_eWPcuENZcw4WMDPK-3" value="&lt;div&gt;Teleport 192.168.2.100&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="220_eWPcuENZcw4WMDPK-1">
+          <mxGeometry x="-15" y="70" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="220_eWPcuENZcw4WMDPK-4" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1020" y="850" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="220_eWPcuENZcw4WMDPK-5" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="220_eWPcuENZcw4WMDPK-4">
+          <mxGeometry x="-5" width="80" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="220_eWPcuENZcw4WMDPK-6" value="&lt;div&gt;Vault&lt;/div&gt;&lt;div&gt;192.168.2.200&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="220_eWPcuENZcw4WMDPK-4">
+          <mxGeometry x="-15" y="70" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
